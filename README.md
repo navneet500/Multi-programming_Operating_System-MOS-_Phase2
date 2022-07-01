@@ -75,3 +75,18 @@
         EM: Error Message
         
         
+#**INTERRUPT VALUES**
+        SI = 1 on GD
+        
+           = 2 on PD
+           
+           = 3 on H
+           
+        TI = 2 on Time Limit Exceeded
+        
+        PI = 1 Operation Error
+        
+           = 2 Operand Error
+           
+           = 3 Page Fault
+        
