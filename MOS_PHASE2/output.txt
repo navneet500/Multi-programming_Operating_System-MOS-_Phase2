@@ -1,0 +1,51 @@
+Hello World                     
+No error
+IR: H   
+IC= 3
+TI= 0  PI=0  SI=3
+TTC= 4   TTL= 4   TLC= 1   TLL= 1
+
+
+Operation code error
+IR: pD10
+IC= 2
+TI= 0  PI=1  SI=0
+TTC= 2   TTL= 4   TLC= 0   TLL= 1
+
+
+Operand error
+IR: GDio
+IC= 1
+TI= 0  PI=2  SI=1
+TTC= 0   TTL= 4   TLC= 0   TLL= 1
+
+
+Time limit exceeded
+IR: PD10
+IC= 2
+TI= 2  PI=0  SI=2
+TTC= 2   TTL= 2   TLC= 0   TLL= 1
+
+
+Hello World                     
+Line limit exceeded
+IR: PD10
+IC= 3
+TI= 0  PI=0  SI=2
+TTC= 3   TTL= 5   TLC= 2   TLL= 1
+
+
+Invalid page fault
+IR: PD20
+IC= 2
+TI= 0  PI=3  SI=2
+TTC= 2   TTL= 4   TLC= 0   TLL= 1
+
+
+Out of Data Error
+IR: GD10
+IC= 1
+TI= 0  PI=0  SI=1
+TTC= 1   TTL= 4   TLC= 0   TLL= 1
+
+
