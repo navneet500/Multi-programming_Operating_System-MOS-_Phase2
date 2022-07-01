@@ -37,6 +37,41 @@
         5    Operand Error
         
         6    Invalid Page Fault
+
+#**NOTATIONS**
         
+        M: memory
+        
+        IR: Instruction Register (4 bytes)
+        
+        IR [1, 2]: Bytes 1, 2 of IR/Operation Code
+        
+        IR [3, 4]: Bytes 3, 4 of IR/Operand Address
+        
+        M[&]: Content of memory location 
+        
+        IC: Instruction Counter Register (2 bytes)
+        
+        R: General Purpose Register (4 bytes)
+        
+        C: Toggle (1 byte)
+        
+        PTR: Page Table Register (4 bytes)
+        
+        PCB: Process Control Block (data structure)
+        
+        VA: Virtual Address
+        
+        RA: Real Address
+        
+        TTC: Total Time Counter
+        
+        LLC: Line Limit Counter
+        
+        TTL: Total Time Limit
+        
+        TLL: Total Line Limit
+        
+        EM: Error Message
         
         
