@@ -21,3 +21,22 @@
     9. TI interrupt for time-out error introduced
 
     10. 2-line messages printed at termination
+
+**#Errors*
+
+        0    No Error
+        
+        1    Out of Data
+        
+        2    Line Limit Exceeded
+        
+        3    Time Limit Exceeded
+        
+        4    Operation Code Error
+        
+        5    Operand Error
+        
+        6    Invalid Page Fault
+        
+        
+        
